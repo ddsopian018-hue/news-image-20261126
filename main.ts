@@ -398,7 +398,7 @@ fillEllipse(PIC_X + 300, LEAD_Y + 62, 80, 20, [70, 96, 124]);
 const BX = PIC_X + 182;
 const BY = LEAD_Y + 128;
 fillEllipse(BX, BY, 86, 62, BALLOON);
-fillEllipse(BX, BY, 86, 62, BALLOON);
+fillEllipse(BX - 30, BY - 28, 26, 14, [226, 96, 84]); // highlight on the balloon
 for (let i = -2; i <= 2; i++) {
   // white vertical stripes, clipped by the ellipse outline via short spans
   const sx = BX + i * 30;
